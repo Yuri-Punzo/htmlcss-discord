@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* #region utility */
 
 .container {
@@ -58,9 +62,7 @@
 
 /* #endregion Utility */
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
+/* #region Header */
 
 header {
     background-color: #255ee9;
@@ -97,6 +99,9 @@ a {
     color: #ffffff;
 }
 
+/* #endregion Header */
+
+/* #region Main */
 .jumbo {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -114,17 +119,17 @@ a {
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 50px;
     margin: 1rem;
 }
 
-p{
+p {
     font-size: 16px;
     margin: 8px;
 }
 
-.download{
+.download {
     font-size: 20px;
     color: black;
     margin: 8px 8px 8px 0;
@@ -134,7 +139,7 @@ p{
 
 }
 
-.browser-version{
+.browser-version {
     font-size: 20px;
     color: white;
     background-color: black;
@@ -168,6 +173,9 @@ p{
     text-align: center;
 }
 
+/* #endregion Main */
+
+/* #region Footer */
 footer {
     background-color: #23272a;
 }
@@ -207,15 +215,4 @@ footer {
     border-bottom: 2px solid #d3d3d3;
 }
 
-/* #region Debug */
-
-/*  
-.nav,
-.logo,
-.button {
-    border: 1px black dashed;
-    background-color: #daa520;
-}
-*/
-
-/* #endregion Debug */
+/* #endregion Footer */
