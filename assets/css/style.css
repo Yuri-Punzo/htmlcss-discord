@@ -12,7 +12,7 @@
     margin: auto;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -52,13 +52,14 @@
     width: calc((100% / 12) * 12);
 }
 
-/* #endregion Utility */
-
-body{
-    font-family: 'Montserrat', sans-serif;
-}
 .gray-background {
     background-color: #d3d3d3;
+}
+
+/* #endregion Utility */
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -70,15 +71,19 @@ header {
     margin: 1rem auto;
 }
 
-.nav,
-.logo,
-.button {
-    border: 1px black dashed;
-    background-color: #daa520;
+.logo-img {
+    margin: 12px auto;
 }
 
-.logo-img {
-    margin: 1rem;
+.button {
+    text-align: end;
+}
+
+.login {
+    margin: 3px auto;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
 }
 
 .links {
@@ -92,31 +97,51 @@ a {
     color: #ffffff;
 }
 
-.button {
-    text-align: end;
-}
-
-.login {
-    margin: 1rem;
-}
-
 .jumbo {
-    background-color: #00008b;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 530px;
     max-width: 100%;
 }
 
 .banner-text {
-    background-color: #ee82ee;
     height: 320px;
     width: 50%;
     max-width: 1000px;
     margin: auto;
     color: white;
     text-align: center;
-    border: 1px dashed black;
-    border-radius: 8px;
+}
+
+h2{
+    font-size: 50px;
+    margin: 1rem;
+}
+
+p{
+    font-size: 16px;
+    margin: 8px;
+}
+
+.download{
+    font-size: 20px;
+    color: black;
+    margin: 8px 8px 8px 0;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.browser-version{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin: 8px 8px 8px 0;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
 }
 
 .blu {
@@ -178,6 +203,19 @@ footer {
     border: 1px dashed black;
 }
 
-.upper-footer{
+.upper-footer {
     border-bottom: 2px solid #d3d3d3;
 }
+
+/* #region Debug */
+
+/*  
+.nav,
+.logo,
+.button {
+    border: 1px black dashed;
+    background-color: #daa520;
+}
+*/
+
+/* #endregion Debug */
