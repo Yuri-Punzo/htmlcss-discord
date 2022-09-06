@@ -56,8 +56,8 @@ body {
     width: calc((100% / 12) * 12);
 }
 
-.gray-background {
-    background-color: #d3d3d3;
+.gray-wavesZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ {
+    background-image: url("../img/wave.svg");
 }
 
 /* #endregion Utility */
@@ -124,7 +124,7 @@ h2 {
     margin: 1rem;
 }
 
-.banner-text > p {
+.banner-text>p {
     font-size: 16px;
     margin: 8px;
 }
@@ -149,30 +149,58 @@ h2 {
     border: none;
 }
 
-.decorative-img { 
+.img-box {
     margin: 2rem 0;
     height: 400px;
     max-width: 100%;
 }
 
-h3{
-    font-size: 50px;
+.decorative-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.rosa {
+h3 {
+    font-size: 40px;
+    margin: 50px 0 30px 30px;
+}
+
+.text-box > p {
+    margin-left: 30px;
+}
+
+.text-box {
     text-align: left;
     height: 400px;
     max-width: 100%;
 }
 
-.green-box {
-    background-color: #228b22;
+.large-box {
     margin: 2rem auto;
-    height: 800px;
+    height: 880px;
     width: 100%;
     max-width: 1200px;
-    border: 1px black dashed;
     text-align: center;
+}
+
+.stars{
+    font-size: 24px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    padding: 20px;
+}
+
+.download-blue{
+    font-size: 20px;
+    color: white;
+    background-color: #7289da;
+    margin: 8px 8px 8px 8px;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
 }
 
 /* #endregion Main */
