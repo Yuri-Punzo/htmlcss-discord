@@ -22,6 +22,12 @@ body {
     flex-direction: row;
 }
 
+.flex-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -54,6 +60,10 @@ body {
 
 .col-12 {
     width: calc((100% / 12) * 12);
+}
+
+.colored-text {
+    color: #7289da;
 }
 
 .gray-wavesZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ {
@@ -161,12 +171,12 @@ h2 {
     object-fit: cover;
 }
 
-h3 {
+.text-box>h3 {
     font-size: 40px;
     margin: 50px 0 30px 30px;
 }
 
-.text-box > p {
+.text-box>p {
     margin-left: 30px;
 }
 
@@ -178,13 +188,17 @@ h3 {
 
 .large-box {
     margin: 2rem auto;
-    height: 880px;
+    height: 850px;
     width: 100%;
     max-width: 1200px;
     text-align: center;
 }
 
-.stars{
+.large-box>h3 {
+    font-size: 40px;
+}
+
+.stars {
     font-size: 24px;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
@@ -193,7 +207,7 @@ h3 {
     padding: 20px;
 }
 
-.download-blue{
+.download-mac {
     font-size: 20px;
     color: white;
     background-color: #7289da;
@@ -206,21 +220,45 @@ h3 {
 /* #endregion Main */
 
 /* #region Footer */
+
+.upper-footer {
+    border-bottom: 2px solid #445074;
+}
+
 footer {
     background-color: #23272a;
 }
 
-.salmone {
+.language-and-socials {
     height: 500px;
-    background-color: #f08080;
-    margin: 10px 0px 25px;
-    border: 1px dashed black;
+    color: white;
+    margin: 80px 0px 25px;
 }
 
-.azzurro {
+.language-and-socials>h3 {
+    font-size: 30px;
+}
+
+.ita {
+    width: 20px;
+}
+
+.arrow-head {
+    font-size: 30px;
+}
+
+.fa-twitter, .fa-instagram, .fa-facebook, .fa-youtube{
+    margin: 15px 20px 0 0;
+    font-size:20px;
+    color: white;
+}
+
+.fa-instagram
+
+.info {
     height: 500px;
     background-color: #20b2aa;
-    margin: 10px 0px 25px;
+    margin: 80px 0px 25px;
     border: 1px dashed white;
 }
 
@@ -228,21 +266,23 @@ footer {
     height: 80px;
     max-width: 1200px;
     width: 100%;
-    background-color: #7fffd4;
     justify-content: space-between;
     align-items: center;
     margin-top: 0.5rem;
 }
 
-.footer-logo,
-.registrati {
-    background-color: #ffb6c1;
-    padding: 0.5rem;
-    border: 1px dashed black;
+.register {
+    color: white;
+    background-color: #7289da;
+    margin: 8px 8px 8px 8px;
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
 }
 
-.upper-footer {
-    border-bottom: 2px solid #d3d3d3;
+.footer-logo,
+.registrati {
+    padding: 0.5rem;
 }
 
 /* #endregion Footer */
