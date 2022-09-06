@@ -52,14 +52,17 @@
     width: calc((100% / 12) * 12);
 }
 
+/* #endregion Utility */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .gray-background {
     background-color: #d3d3d3;
 }
 
-/* #endregion Utility */
-
 header {
-    background-color: #add8e6;
+    background-color: #255ee9;
 }
 
 .header-box {
@@ -85,6 +88,8 @@ header {
 
 a {
     padding: 0 0.5rem;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .button {
