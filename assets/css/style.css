@@ -34,8 +34,12 @@ body {
     flex-direction: row;
 }
 
-.spacing {
+.text-spacing {
     margin-bottom: 15px;
+}
+
+.spacing{
+    padding: 10rem 0;
 }
 
 .col-2 {
