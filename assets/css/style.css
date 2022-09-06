@@ -70,9 +70,18 @@ body {
     color: #7289da;
 }
 
-.gray-wavesZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ {
-    background-image: url("../img/wave.svg");
-}
+        /* #region Tristezza */
+
+            /*  
+                avrei voluto provare a mettere anche le onde ma nada =(
+
+                .gray-waves {
+                 background-image: url("../img/wave.svg");
+             }
+
+            */
+
+        /* #endregion Tristezza */
 
 /* #endregion Utility */
 
