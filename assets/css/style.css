@@ -11,7 +11,7 @@ body {
 /* #region utility */
 
 .container {
-    width: 65%;
+    width: 70%;
     max-width: 1200px;
     margin: auto;
 }
@@ -124,7 +124,7 @@ h2 {
     margin: 1rem;
 }
 
-p {
+.banner-text > p {
     font-size: 16px;
     margin: 8px;
 }
@@ -149,18 +149,20 @@ p {
     border: none;
 }
 
-.blu {
-    background-color: #1e90ff;
+.decorative-img { 
     margin: 2rem 0;
     height: 400px;
-    border: 1px black dashed;
+    max-width: 100%;
+}
+
+h3{
+    font-size: 50px;
 }
 
 .rosa {
-    background-color: #ffc0cb;
-    margin: 2rem 0;
+    text-align: left;
     height: 400px;
-    border: 1px black dashed;
+    max-width: 100%;
 }
 
 .green-box {
